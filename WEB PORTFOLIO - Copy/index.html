@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cristy Jean Romano — Web Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- ══ NAVIGATION ══ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Cristy</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section id="hero">
+    <div class="hero-blob" aria-hidden="true"></div>
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, World! I'm</p>
+        <h1 class="hero-name">Cristy Jean Romano</h1>
+        <p class="hero-role">
+          Aspiring Web Developer &amp; <span class="accent">IT Student</span>
+        </p>
+        <p class="hero-bio">
+          Currently leveling up my skills at
+          <strong>Cordova Public College</strong> — pursuing a
+          Bachelor of Science in Information Technology. I turn caffeine
+          and curiosity into clean, functional web experiences. 
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-avatar" aria-label="Profile photo">
+        <img src="crx.jpg" alt="Profile photo" class="hero-avatar-img" />
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══ -->
+  <section id="about">
+    <div class="section-header">
+      <p class="section-label">About Me</p>
+      <h2 class="section-title">A bit about who I am</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Hey! I'm <strong>Cristy Jean Romano</strong> a BSIT student at <strong>Cordova Public College</strong> in
+          Cordova, Cebu, Philippines — and yes, I do think semicolons are underrated. 
+        </p>
+        <p>
+          I have a genuine passion for building things on the web. Whether it's a
+          sleek landing page or a functional web app, I love the process of turning
+          an idea into something real that people can actually use.
+        </p>
+        <p>
+          When I'm not debugging (or staring blankly at the screen), you'll find me
+          exploring new tech, watching tutorials, or procrastinating with snacks.
+          I'm always eager to learn, grow, and take on new challenges.
+        </p>
+      </div>
+
+      <div class="about-details">
+        <div class="detail-card">
+          <div class="detail-info">
+            <p class="detail-label">Education</p>
+            <p class="detail-value">BS Information Technology</p>
+            <p class="detail-sub">Cordova Public College</p>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-info">
+            <p class="detail-label">Location</p>
+            <p class="detail-value">Cordova, Cebu</p>
+            <p class="detail-sub">Philippines</p>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-info">
+            <p class="detail-label">Focus</p>
+            <p class="detail-value">Web Development</p>
+            <p class="detail-sub">Frontend &amp; Backend</p>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-info">
+            <p class="detail-label">Status</p>
+            <p class="detail-value">Currently Studying</p>
+            <p class="detail-sub">Open to Opportunities</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SKILLS ══ -->
+  <section id="skills">
+    <div class="section-header">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">What I work with</h2>
+      <div class="divider"></div>
+      <p class="section-desc">
+        Technologies and tools I've been learning and applying throughout my studies.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3 class="skill-group-title">Frontend</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Backend</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">JAVA</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Tools</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Figma</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ PROJECTS ══ -->
+  <section id="projects">
+    <div class="section-header">
+      <p class="section-label">Projects</p>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="divider"></div>
+      <p class="section-desc">
+        A selection of projects I've worked on as part of my studies and personal exploration.
+      </p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <a href="https://miniwebsiteproject.vercel.app/" target="_blank" rel="noopener" class="project-thumb project-thumb--preview">
+          <img
+            src="https://image.thum.io/get/width/600/crop/400/https://miniwebsiteproject.vercel.app/"
+            alt="Mini Website Project preview"
+            class="project-preview-img"
+            loading="lazy"
+          />
+          <div class="project-thumb-overlay">
+            <span class="project-thumb-cta">Visit Site ↗</span>
+          </div>
+        </a>
+        <div class="project-body">
+          <span class="project-tag">HTML Based Website</span>
+          <h3 class="project-name">Mini Website Project</h3>
+          <p class="project-desc">
+            This mini website project is a simple personal portfolio-style web
+            application that showcases information such as services, projects,
+            and contact details in a clean, organized layout. It is designed to
+            demonstrate basic front-end development skills and provide an accessible,
+            responsive user experience across devices.
+          </p>
+          <div class="project-links">
+            <a href="https://miniwebsiteproject.vercel.app/" target="_blank" rel="noopener" class="project-link">Live Demo ↗</a>
+            <a href="https://github.com/crx-2005/mini_website_project" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <a href="https://class-schedule-page-rho.vercel.app/" target="_blank" rel="noopener" class="project-thumb project-thumb--preview">
+          <img
+            src="https://image.thum.io/get/width/600/crop/400/https://class-schedule-page-rho.vercel.app/"
+            alt="Class Schedule Website preview"
+            class="project-preview-img"
+            loading="lazy"
+          />
+          <div class="project-thumb-overlay">
+            <span class="project-thumb-cta">Visit Site ↗</span>
+          </div>
+        </a>
+        <div class="project-body">
+          <span class="project-tag">HTML Based Class Schedule</span>
+          <h3 class="project-name">Class Schedule Webpage</h3>
+          <p class="project-desc">
+            A simple academic portal website built using HTML and CSS 
+            that displays student profile information, class schedule, 
+            and grade reports. It uses semantic structure (header, main, 
+            footer), organized sections, navigation between pages, and 
+            structured tables to present academic data clearly.
+          </p>
+          <div class="project-links">
+            <a href="https://class-schedule-page-rho.vercel.app/" target="_blank" rel="noopener" class="project-link">Live Demo ↗</a>
+            <a href="https://github.com/crx-2005/CLASS-SCHEDULE-PAGE" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+     <article class="project-card">
+        <a href="https://web-poster-project.vercel.app/" target="_blank" rel="noopener" class="project-thumb project-thumb--preview">
+          <img
+            src="https://image.thum.io/get/width/600/crop/400/https://web-poster-project.vercel.app/"
+            alt="Web Poster preview"
+            class="project-preview-img"
+            loading="lazy"
+          />
+          <div class="project-thumb-overlay">
+            <span class="project-thumb-cta">Visit Site ↗</span>
+          </div>
+        </a>
+        <div class="project-body">
+          <span class="project-tag">HTML and CSS Based Poster</span>
+          <h3 class="project-name">Web Poster</h3>
+          <p class="project-desc">
+            A simple, web poster built with HTML and CSS. Features a mountain 
+            background, layered text overlay, custom typography, and a live 
+            booking link. Designed to practice frontend fundamentals including 
+            layout, styling, and file structure.
+          </p>
+          <div class="project-links">
+            <a href="https://web-poster-project.vercel.app/" target="_blank" rel="noopener" class="project-link">Live Demo ↗</a>
+            <a href="https://github.com/crx-2005/Web-Poster-Project" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <div class="section-header">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="contact-inner">
+
+      <!-- Left column: info -->
+      <div class="contact-info-panel">
+        <p class="contact-intro">
+          Feel free to reach out if you need anything or have any questions.
+          I'm always happy to help and would love to hear from you —
+          don't hesitate to get in touch anytime!
+        </p>
+
+        <div class="contact-items">
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <p class="contact-item-label">Address</p>
+              <p class="contact-item-value">Guirellero Street, Cadulang, Marigondon, Lapu Lapu City</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <p class="contact-item-label">Phone</p>
+              <a href="tel:+639000000000" class="contact-item-value contact-link">+63 954 156 3654</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <p class="contact-item-label">E-Mail</p>
+              <a href="mailto:yourname@email.com" class="contact-item-value contact-link">romanocristyjean@gmail.com</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right column: form -->
+      <form class="contact-form" onsubmit="return false;" novalidate>
+
+        <div class="form-group">
+          <label for="fullname">Full Name <span class="required">*</span></label>
+          <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+63 900 000 0000" />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject <span class="required">*</span></label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea id="message" name="message" placeholder="Tell me about your project or just say hi!" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        <span class="footer-logo">Romano, Cristy Jean</span>
+        <p class="footer-tagline">
+          Feel free to reach out if you need anything or have any questions.
+          I'm always happy to help and would love to hear from you.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">Navigation</p>
+        <ul class="footer-col-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">Follow Me</p>
+        <ul class="footer-col-list">
+          <li><a href="https://github.com/crx-2005">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/romanocristyjean/">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/crxty.jnzz">Facebook</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Romano, Cristy Jean &nbsp;|&nbsp; All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    /* ★ ADDED: IntersectionObserver — triggers .visible class on each
+       .skill-group card when it scrolls into the viewport, enabling
+       the CSS fade-up animation defined in style.css */
+    const skillObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            skillObserver.unobserve(entry.target); /* animate once only */
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    /* ★ ADDED: Attach observer to every skill group card on load */
+    document.querySelectorAll('.skill-group').forEach(card => {
+      skillObserver.observe(card);
+    });
+  </script>
+
+</body>
+</html>
